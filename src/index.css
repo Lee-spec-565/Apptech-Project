@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main {
+  min-height: calc(100vh - 56px);
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.card-header {
+  border-radius: 0.75rem 0.75rem 0 0 !important;
+}
+
+.table th {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+}
