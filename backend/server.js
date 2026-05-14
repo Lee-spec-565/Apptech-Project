@@ -1,3 +1,4 @@
+// Dependencies required.
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
@@ -17,6 +18,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Student Management API is running.' });
 });
 
+// Connecting MongoDB Atlas.
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => {
