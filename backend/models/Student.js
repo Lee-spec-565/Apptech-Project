@@ -1,3 +1,4 @@
+// Adding required data models for 'student'.
 const mongoose = require('mongoose');
 
 const studentSchema = new mongoose.Schema(
