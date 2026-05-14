@@ -7,7 +7,7 @@ import StudentEdit from './pages/StudentEdit';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Apptech-Project/">
       <Navbar />
       <main>
         <Routes>
